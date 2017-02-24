@@ -1,39 +1,35 @@
 body{
   font-family: 'Helvetica Neue';
-  background-color: rgb(35, 114, 164);
   color: black;
 }
-nav{
-  background-color: black;
+.navbar-default{
+  background: rgb(35, 114, 164);
   color: white;
   font-family: 'Helvetica Neue';
   font-size: 15px;
+  position: relative;
+  height: 100px;
+}
+.navbar-collapse {
+  color: white;
+  background: rgb(35, 114, 164);
+}
+.navbar-collapse .navbar-nav>li>a{
+  color: white;
+}
+.navbar-nav{
+  margin-top: 20px;
+}
+#brand{
+  transform: scale(0.7);
+  position: relative;
+  top: -30px;
 }
 a, a:visited{
   text-decoration: none;
-  color: inherit;
 }
-#brand{
-  font-size: 40px;
-  font-family: 'Ceviche One', cursive;
-}
-html,
-body {
-   margin:0;
-   padding:0;
-   height:100%;
-}
-#container {
-   min-height:100%;
-   position:relative;
-}
-#body {
-   padding:10px;
-   padding-bottom:60px;   /* Height of the footer */
-}
-#footer {
-   position:absolute;
-   bottom:0;
-   width:100%;
-   height:60px;   /* Height of the footer */
+.icon-bar{
+  color:white;
+  background: white;
+  border: 1px solid white;
 }
