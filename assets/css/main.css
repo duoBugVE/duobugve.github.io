@@ -1,5 +1,5 @@
 @import url(font-awesome.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300italic,600italic,300,600");
+@import url("https://fonts.googleapis.com/css?family=Exo+2");
 
 /*
 	Dimension by HTML5 UP
@@ -124,7 +124,7 @@
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", sans-serif;
+		font-family: 'Exo 2', sans-serif;
 		font-weight: 300;
 		font-size: 1rem;
 		line-height: 1.65;
@@ -1266,7 +1266,7 @@
 
 			#header .content p {
 				text-transform: uppercase;
-				letter-spacing: 0.2rem;
+				letter-spacing: 0.1rem;
 				font-size: 0.8rem;
 				line-height: 2;
 			}
@@ -1297,7 +1297,7 @@
 					min-width: 7.5rem;
 					height: 2.75rem;
 					line-height: 2.75rem;
-					padding: 0 1.25rem 0 1.45rem;
+					padding: 0 1rem 0 1rem;
 					text-transform: uppercase;
 					letter-spacing: 0.2rem;
 					font-size: 0.8rem;
