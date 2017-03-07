@@ -1,13 +1,29 @@
+@import url('https://fonts.googleapis.com/css?family=Ceviche+One');
+
 body{
   background-image: url("../../images/IMG-20120202-00037.jpg");
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover;
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+  background-size: cover;
   overflow-x: hidden;
 }
 .todo{
   position: relative;
+}
+nav{
+  font-family: 'Helvetica Neue';
+  font-size: 1em;
+  height: 50px;
+  padding: 0;
+}
+.nav li{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+#brand{
+  font-size: 3em;
+  font-family: 'Ceviche One', cursive;
 }
 .cuerpo{
   background: #FFF;
@@ -27,9 +43,10 @@ body{
 .sidebar{
   position: relative;
   float: right;
-  margin-top: 6em;
-  margin-right: auto;
-  margin-left: 2em;
+  margin-top: 5em;
+  margin-right: 1em;
+  margin-left: 1em;
+  padding: 1em;
 }
 
 #down{
@@ -42,7 +59,7 @@ body{
 #myButton{
   position: fixed;
   top: 90vh;
-  font-size: 2em;
+  font-size: 1.5em;
   left: 90vw;
   opacity: 0.7;
   border: solid;
@@ -78,11 +95,10 @@ a:focus{
   padding: 4em;
   padding-left: 6em;
   font-size: 1em;
-  margin-right: auto;
-  margin-left: auto;
 }
-h1{
-  font-size: 3em;
+#title{
+  font-size: 5em;
+  font-family: 'Ceviche One', cursive;
 }
 h2{
   text-align: center;
@@ -90,7 +106,7 @@ h2{
   text-shadow: 2px 2px 2px grey;
   color: #d11414;
 }
-h3{
+h4{
   text-shadow: 2px 2px 2px grey;
   color: #d11414;
 }
