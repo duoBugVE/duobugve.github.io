@@ -26,3 +26,7 @@ $(window).scroll(function(){
           $("#sub, #down, h1").removeClass("colorBlack");
     }
 });
+
+$(".navbar-toggle").click(function(){
+    $(this).toggleClass("open");
+  });
