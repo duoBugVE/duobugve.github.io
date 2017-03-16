@@ -58,7 +58,10 @@
 		-webkit-box-sizing: border-box;
 		box-sizing: border-box;
 	}
-
+	li{
+		list-style-type: none;
+		margin-left: -1.5em;
+	}
 /* Basic */
 
 	@-ms-viewport {
