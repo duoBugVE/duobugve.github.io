@@ -1,0 +1,1 @@
+Este es el blog de duobug.com.ve aquí publicaremos periódicamente contenido que pensamos que pueda ser interesante para nuestros visitantes y de distintos tipos; como tecnología, programación, entretenimiento, videojuegos, etc. También tenemos planeados pequeños tutoriales de programación y tecnología.
