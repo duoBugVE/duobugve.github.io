@@ -1,21 +1,18 @@
 @import url('https://fonts.googleapis.com/css?family=Ceviche+One');
 
 body{
-  background-image: url("../../images/IMG-20120202-00037.jpg");
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background: radial-gradient(at 50% 70%, #000811 ,#001935 ,#00336d , #004491);
   font-family: Futura, "Trebuchet MS", Arial, sans-serif;
   background-size: cover;
   overflow-x: hidden;
 }
-.todo{
-  position: relative;
-}
+/* navbar configuracion */
 .navbar-default{
   font-family: 'Helvetica Neue';
   font-size: 1em;
   height: 3.5em;
   padding: 0;
+  border-bottom: 1px solid black;
 }
 .nav li{
   margin-top: 0;
@@ -23,7 +20,7 @@ body{
   padding-right: 1em;
 }
 .navbar-default .navbar-nav>li>a {
-  color: #d11414;
+  color: #004491;
 }
 .navbar-nav{
   margin-bottom: 0;
@@ -41,22 +38,25 @@ body{
   font-size: 3em;
   font-family: 'Ceviche One', cursive;
   text-shadow: 2px 2px 2px grey;
-  color: #d11414;
+  color: #004491;
 }
 #brand:hover{
   color: black;
 }
+/* cuerpo del blog*/
 .cuerpo{
-  background: #f8f8f8;
+  background: #eaecef;
   position: relative;
   z-index: 1;
   box-shadow: 3px 3px 10px 1px;
   padding-right: 2em;
+  margin: 0 10% 0 10%;
+  border-radius: 7px;
 }
 .bg {
   position: relative;
-  height: 95vh;
-  top: 75vh;
+  height: 50vh;
+  top: 25vh;
   z-index: 0;
   color: white;
   margin-left: 2em;
@@ -70,32 +70,31 @@ body{
   margin-left: 1em;
   padding: 1em;
 }
-
-#down{
-  font-size: 2em;
+#blog{
   position: relative;
-  float: right;
-  z-index: 0;
-  margin-right: 1em;
-  color: inherit;
+  text-align: justify;
+  padding: 4em;
+  margin-right: 20%;
+  font-size: 1.5em;
+  font-weight: 400;
+  line-height: 1.5;
 }
+#title{
+  font-size: 5em;
+  font-family: 'Ceviche One', cursive;
+}
+
 #myButton{
   position: fixed;
   top: 90vh;
-  font-size: 1em;
-  left: 90vw;
+  font-size: 0.7em;
+  left: 75vw;
   opacity: 0.7;
-  border: solid;
-  border-radius: 50%;
-  padding: 1px;
-  color: #d11414;
 }
   #myButton:hover{
     opacity: 1;
   }
-.colorBlack{
-  color:black;
-}
+
 ul li, ol li{
   margin: 1.5em 1.5em 1.5em -1em;
   position: relative;
@@ -115,48 +114,18 @@ a:hover{
 a:focus{
   color:black;
 }
-#blog{
-  position: relative;
-  text-align: justify;
-  padding: 4em;
-  margin-right: 15%;
-  font-size: 1.5em;
-  font-weight: 400;
-  line-height: 1.5;
-}
-#title{
-  font-size: 5em;
-  font-family: 'Ceviche One', cursive;
-}
 h2{
   text-align: center;
   font-size: 2em;
   text-shadow: 2px 2px 2px grey;
-  color: #d11414;
+  color: #004491;
 }
 h4{
   text-shadow: 2px 2px 2px grey;
-  color: #d11414;
+  color: #004491;
 }
 h5{
   color: #999;
-}
-
-.codigo{
-  box-shadow: inset 0 0 10px #000000;
-}
-@media only screen and (max-width: 766px){
-    #blog.responsive {
-        width: 98%;
-        margin: 1%;
-        padding: 2%;
-        font-size: 1em;
-    }
-}
-@media only screen and (max-width: 500px){
-    body{
-      background: black;
-    }
 }
 /*Burger to X toggle*/
 .navbar-toggle span{
@@ -172,6 +141,7 @@ h5{
 .open span:nth-child(3){
   transform: translateY(-0.4em) rotate(-45deg);
 }
+/*Botones de compartir en redes*/
 .share{
   margin-top: 2em;
   padding: 2em;
@@ -186,10 +156,25 @@ h5{
 .share ul li a{
   list-style-type: none;
   text-decoration: none;
-  color: #d11414;
+  color: #004491;
   background: white;
   font-size: 1.5em;
 }
 .share ul li a:hover{
-  color: black;
+  background-color: #004491;
+  color:white;
+}
+/*Pantallas pequeñas*/
+@media only screen and (max-width: 766px){
+  #blog.responsive {
+    width: 98%;
+    margin: 1%;
+    padding: 2%;
+    font-size: 1em;
+  }
+}
+@media only screen and (max-width: 500px){
+  body{
+    background: black;
+  }
 }
