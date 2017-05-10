@@ -1,3 +1,4 @@
+//Scroll smooth
 $(function() {
   $('a[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
@@ -12,6 +13,7 @@ $(function() {
     }
   });
 });
+//Boton de volver al top
 $('#myButton').hide();
 var isVisible = false;
 $(window).scroll(function(){
@@ -27,6 +29,23 @@ $(window).scroll(function(){
     }
 });
 
+//Boton de hamburguesa a X
 $(".navbar-toggle").click(function(){
-    $(this).toggleClass("open");
-  });
+  $(this).toggleClass("open");
+});
+
+
+// Botones de compartir
+var url = window.location.href;
+$("#tweet").on("click", function(){
+  window.open("https://twitter.com/intent/tweet?text=" + "Me ha gustado un artículo " + url);
+});
+$("#fb").on("click", function(){
+  window.open("https://www.facebook.com/sharer/sharer.php?u=" + url);
+});
+$("#google").on("click", function(){
+  window.open("https://plus.google.com/share?url=" + url);
+});
+$("#linked").on("click", function(){
+  window.open("https://www.linkedin.com/shareArticle?mini=true&url=" + url);
+});
