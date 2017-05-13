@@ -1,4 +1,5 @@
 ![DuoBug Logo](https://github.com/duoBugVE/duobugve.github.io/blob/master/images/logo-duobug.png)
+
 # DuoBug
 Duobug es un proyeto colaborativo con la finalidad de crear una web
 que ofrezca servicios de asesoria y desarrollo web asi como tambien actuar como
