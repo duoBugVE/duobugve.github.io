@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="es">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Modelo de Blog">
+    <title>Modelo de Blog - DuoBug</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/pure-min.css" integrity="sha384-" crossorigin="anonymous">
+
+    <!--[if lte IE 8]>
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-old-ie-min.css">
+    <![endif]-->
+    <!--[if gt IE 8]><!-->
+        <link rel="stylesheet" href="https://unpkg.com/purecss@0.6.2/build/grids-responsive-min.css">
+    <!--<![endif]-->
+
+
+        <!--[if lte IE 8]>
+            <link rel="stylesheet" href="css/layouts/blog-old-ie.css">
+        <![endif]-->
+        <!--[if gt IE 8]><!-->
+            <link rel="stylesheet" href="assets/css/blog_3.css">
+        <!--<![endif]-->
+        <link rel="shortcut icon" href="images\icono-duobug.png" type="favicon/ico" />
+</head>
+<body>
+
+
+
+
+
+
+
+<div id="layout" class="pure-g">
+    <div class="sidebar pure-u-1 pure-u-md-1-4">
+        <div class="header">
+            <h1 class="brand-title">Un blog de muestra</h1>
+            <h2 class="brand-tagline">Modelo de Blog usando Pure</h2>
+
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://purecss.io">Pure</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="pure-button" href="https://yuilibrary.com">YUI Library</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <div class="content pure-u-1 pure-u-md-3-4">
+        <div>
+            <!-- A wrapper for all the blog posts -->
+            <div class="posts">
+                <h1 class="content-subhead">Entradas fijadas</h1>
+
+                <!-- A single blog post -->
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Gabriel&#x27;s avatar" class="post-avatar" src="images\avatar-gabo.jpg">
+
+                        <h2 class="post-title">Entrada de prueba 1</h2>
+
+                        <p class="post-meta">
+                            Por <a href="https://glopez.com.ve" class="post-author">Gabriel López</a> Etiquetas <a class="post-category post-category-design" href="#">CSS</a> <a class="post-category post-category-pure" href="#">Pure</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="posts">
+                <h1 class="content-subhead">Entradas Recientes</h1>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Chrono&#x27;s avatar" class="post-avatar" src="images\avatar-chrono.png">
+
+                        <h2 class="post-title">Entrada ejemplo 2</h2>
+
+                        <p class="post-meta">
+                            Por <a class="post-author" href="#">Chrono</a> Etiquetas <a class="post-category post-category-js" href="#">JavaScript</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Megaman's avatar" class="post-avatar" src="images\avatar-megaman.png">
+
+                        <h2 class="post-title">Fotos</h2>
+
+                        <p class="post-meta">
+                            Por <a class="post-author" href="#">Megaman</a> Etiquetas <a class="post-category" href="#">Uncategorized</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <div class="post-images pure-g">
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="https://www.flickr.com/photos/uberlife/8915936174/">
+                                    <img alt="Photo of someone working poolside at a resort"
+                                         class="pure-img-responsive"
+                                         src="https://farm8.staticflickr.com/7448/8915936174_8d54ec76c6.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>Fotos de ejemplo</h3>
+                                </div>
+                            </div>
+
+                            <div class="pure-u-1 pure-u-md-1-2">
+                                <a href="https://www.flickr.com/photos/uberlife/8907351301/">
+                                    <img alt="Photo of the sunset on the beach"
+                                         class="pure-img-responsive"
+                                         src="https://farm8.staticflickr.com/7382/8907351301_bd7460cffb.jpg">
+                                </a>
+
+                                <div class="post-image-meta">
+                                    <h3>Fotos de ejemplo</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="post">
+                    <header class="post-header">
+                        <img width="48" height="48" alt="Chrono&#x27;s avatar" class="post-avatar" src="images\avatar-chrono.png">
+
+                        <h2 class="post-title">Entrada ejemplo 3</h2>
+
+                        <p class="post-meta">
+                            Por <a class="post-author" href="#">Chrono</a> Etiquetas <a class="post-category post-category-yui" href="#">YUI</a>
+                        </p>
+                    </header>
+
+                    <div class="post-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <div class="footer">
+                <div class="pure-menu pure-menu-horizontal">
+                    <ul>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Nosotros</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">Twitter</a></li>
+                        <li class="pure-menu-item"><a href="#" class="pure-menu-link">GitHub</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
